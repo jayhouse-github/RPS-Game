@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rock-Paper-Scissor.Console-App", "Rock-Paper-Scissor.Console-App\Rock-Paper-Scissor.Console-App.csproj", "{8C334BCC-279D-4E60-BD53-BF9C498678CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rock-Paper-Scissor.Interfaces", "Rock-Paper-Scissor.Interfaces\Rock-Paper-Scissor.Interfaces.csproj", "{4DC29C44-C221-4C8F-A21D-CB6E98C90F67}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rock-Paper-Scissor.Logic", "Rock-Paper-Scissor.BL\Rock-Paper-Scissor.Logic.csproj", "{384F850D-B872-449E-A58D-6E50E78A4847}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rock-Paper-Scissor.RepoFactory", "Rock-Paper-Scissor.RepoFactory\Rock-Paper-Scissor.RepoFactory.csproj", "{87C606EC-01B4-4FF8-B2A3-BE1292A30D66}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rock-Paper-Scissor.Library", "Rock-Paper-Scissor.Library\Rock-Paper-Scissor.Library.csproj", "{EFC42A60-CF60-4D3D-8F11-B0D169D942EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rock-Paper-Scissor.Tests", "Rock-Paper-Scissor.Tests\Rock-Paper-Scissor.Tests.csproj", "{160CF406-8A74-49BD-B14A-EDC5021C68F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C334BCC-279D-4E60-BD53-BF9C498678CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C334BCC-279D-4E60-BD53-BF9C498678CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C334BCC-279D-4E60-BD53-BF9C498678CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C334BCC-279D-4E60-BD53-BF9C498678CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DC29C44-C221-4C8F-A21D-CB6E98C90F67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DC29C44-C221-4C8F-A21D-CB6E98C90F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DC29C44-C221-4C8F-A21D-CB6E98C90F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DC29C44-C221-4C8F-A21D-CB6E98C90F67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{384F850D-B872-449E-A58D-6E50E78A4847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{384F850D-B872-449E-A58D-6E50E78A4847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{384F850D-B872-449E-A58D-6E50E78A4847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{384F850D-B872-449E-A58D-6E50E78A4847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87C606EC-01B4-4FF8-B2A3-BE1292A30D66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87C606EC-01B4-4FF8-B2A3-BE1292A30D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87C606EC-01B4-4FF8-B2A3-BE1292A30D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87C606EC-01B4-4FF8-B2A3-BE1292A30D66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFC42A60-CF60-4D3D-8F11-B0D169D942EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFC42A60-CF60-4D3D-8F11-B0D169D942EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFC42A60-CF60-4D3D-8F11-B0D169D942EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFC42A60-CF60-4D3D-8F11-B0D169D942EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{160CF406-8A74-49BD-B14A-EDC5021C68F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{160CF406-8A74-49BD-B14A-EDC5021C68F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{160CF406-8A74-49BD-B14A-EDC5021C68F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{160CF406-8A74-49BD-B14A-EDC5021C68F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {380ECBEC-5983-4411-A34E-79284872C8ED}
+	EndGlobalSection
+EndGlobal
